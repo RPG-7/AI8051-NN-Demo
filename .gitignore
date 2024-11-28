@@ -1,0 +1,10 @@
+AI8051_north_bridge/al_ip_dev/ 
+*.bit
+*.area
+*.db
+*.log
+*.bak
+
+
+
+

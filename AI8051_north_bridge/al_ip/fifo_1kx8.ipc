@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FIFOConfig>
+    <GeneralConfig>
+        <Type>EF2_LOGIC_FIFO</Type>
+        <Device>EF2M45LG144B</Device>
+        <create_VHDL>false</create_VHDL>
+        <inst>fifo_1kx8</inst>
+    </GeneralConfig>
+    <DataPortOption>
+        <write_width>8</write_width>
+        <write_depth>1024</write_depth>
+        <read_width>16</read_width>
+        <read_depth>512</read_depth>
+    </DataPortOption>
+    <FlagOption>
+        <aempty_flag>false</aempty_flag>
+        <afull_flag>true</afull_flag>
+        <aff_threshold>513</aff_threshold>
+        <resetmode>ASYNC</resetmode>
+        <reset_release>SYNC</reset_release>
+    </FlagOption>
+    <OutputOption>
+        <regmode_r>None</regmode_r>
+    </OutputOption>
+    <EndianOption>
+        <endian>Little</endian>
+    </EndianOption>
+    <SyncClockOption>
+        <sync_clk>false</sync_clk>
+    </SyncClockOption>
+</FIFOConfig>

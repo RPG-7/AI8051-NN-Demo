@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BRAM256KConfig>
+    <GeneralConfig>
+        <Type>BRAM256K</Type>
+        <Device>EF2M45LG144B</Device>
+        <create_VHDL>false</create_VHDL>
+        <inst>soc_dtcm</inst>
+    </GeneralConfig>
+    <PortMode>
+        <mode>SP</mode>
+    </PortMode>
+    <RegBOption>
+        <RegB>NOREG</RegB>
+    </RegBOption>
+    <WriteBOption>
+        <WriteB>NORMAL</WriteB>
+    </WriteBOption>
+</BRAM256KConfig>

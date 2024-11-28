@@ -1,0 +1,12 @@
+[submodule "AI8051_sw/third_party/AI-Arithmetic"]
+	path = AI8051_sw/third_party/AI-Arithmetic
+	url = https://github.com/liux-pro/Ai-Arithmetic
+[submodule "AI8051_north_bridge/third_party/core_sdram_axi4"]
+	path = AI8051_north_bridge/third_party/core_sdram_axi4
+	url = https://github.com/rpg-7/core_sdram_axi4
+[submodule "AI8051_north_bridge/third_party/spi_slave_verilog"]
+	path = AI8051_north_bridge/third_party/spi_slave_verilog
+	url = https://github.com/RPG-7/spi_slave_verilog
+[submodule "AI8051_sw/third_party/cli"]
+	path = AI8051_sw/third_party/cli
+	url = https://github.com/jmswu/cli/

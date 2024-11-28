@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoreGen>
+	<Type>MCU</Type>
+	<Device>EF2M45LG144B</Device>
+	<create_VHDL>false</create_VHDL>
+	<used_features>
+		<io_l> 0 1 5 </io_l>
+		<io_h> 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 </io_h>
+		<PPM_RSTN>Enable</PPM_RSTN>
+		<H2H>Enable</H2H>
+		<AHB_SLAVE>Enable</AHB_SLAVE>
+		<SLEEP_OUT>Enable</SLEEP_OUT>
+		<USR_REG>Enable</USR_REG>
+		<QSPI>Enable</QSPI>
+		<clks>
+			<clk>PPM_CLK</clk>
+			<clk>I2S_MST_CLK</clk>
+		</clks>
+	</used_features>
+</CoreGen>
